@@ -42,6 +42,7 @@ namespace SerialPort_Reading_Writing
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
+
         #region Serial Port Communication
 
         private bool OpenSerialPort()
